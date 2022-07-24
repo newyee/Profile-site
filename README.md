@@ -21,5 +21,5 @@ $ yarn generate
 
 ## Production URL
 
-https://profile-site-1.netlify.app/contact
+https://profile-site-1.netlify.app
 
