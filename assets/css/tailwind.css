@@ -1,0 +1,89 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+}
+
+body.light {
+  --color-bg: theme('colors.gray.100');
+  --color-text-primary: theme('colors.gray.800');
+  --color-text-secondary: theme('colors.gray.600');
+}
+
+body.dark {
+  --color-bg: theme('colors.gray.800');
+  --color-text-primary: theme('colors.white');
+  --color-text-secondary: theme('colors.gray.400');
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --color-bg: theme('colors.gray.100');
+    --color-text-primary: theme('colors.gray.800');
+    --color-text-secondary: theme('colors.gray.600');
+  }
+}
+
+a {
+  @apply text-blue-600;
+}
+
+/* label.required::after {
+  content: '*';
+  @apply text-bland-500;
+} */
+
+.font-leckerli-one {
+  font-family: 'Leckerli One', cursive;
+}
+.font-quicksand {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.text-primary {
+  color: var(--color-text-primary);
+}
+
+.text-secondary {
+  color: var(--color-text-secondary);
+}
+
+
+.bg-gradient-red-to-orange {
+  /* background-image: linear-gradient(
+    to right,
+    theme('colors.bland.500'),
+    theme('colors.orange.500')
+  ); */
+  background-image: linear-gradient( 90deg,#ff5f5f,#ed8936 );
+}
+
+.bg-gradient-gray {
+  background-image: linear-gradient(
+    to right,
+    theme('colors.gray.800'),
+    theme('colors.gray.600')
+  );
+}
+
+.box-shadow-red {
+  box-shadow: 0px 0px 5px 0px theme('colors.red.500');
+}
+.bg-bland-500 {
+  background-color: #FF5F5F;
+}

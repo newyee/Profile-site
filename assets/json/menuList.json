@@ -1,0 +1,6 @@
+[
+    { "to": "/about", "text": "About" },
+    { "to": "/services", "text": "Services" },
+    { "to": "/experiences", "text": "Work" },
+    { "to": "/contact", "text": "Contact" }
+]
