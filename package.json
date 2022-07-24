@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.18.9",
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/vue-fontawesome": "^0.1.9",
@@ -30,7 +30,7 @@
     "postcss-calc": "^7.0.2",
     "postcss-for": "^2.1.1",
     "postcss-nesting": "^7.0.1",
-    "postcss-preset-env": "^6.7.0",
+    "postcss-preset-env": "^6.7.1",
     "sass-loader": "^8.0.2",
     "vee-validate": "^3.2.5",
     "vue-scrollto": "^2.20.0"
