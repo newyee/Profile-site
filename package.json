@@ -22,7 +22,7 @@
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/tailwindcss": "^1.0.0",
-    "@vue/composition-api": "^0.4.0",
+    "@vue/composition-api": "^1.7.0",
     "install": "^0.13.0",
     "node-sass": "^7.0.1",
     "npm": "^6.14.6",
