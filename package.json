@@ -32,7 +32,7 @@
     "postcss-nesting": "^7.0.1",
     "postcss-preset-env": "^6.7.1",
     "sass-loader": "^8.0.2",
-    "vee-validate": "^3.2.5",
+    "vee-validate": "^4.6.2",
     "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
